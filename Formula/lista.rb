@@ -16,7 +16,7 @@ class Lista < Formula
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/kwame-Owusu/lista/releases/download/v0.1.0/lista-linux-amd64"
-      sha256 "b8a536567e2338875a8af577b1426aacb07422f6c886396b88664837ff5595b"
+      sha256 "b8a536567e2338875a8af577b1426aacb07422f6c886396b88664837ff5595bf"
     else
       url "https://github.com/kwame-Owusu/lista/releases/download/v0.1.0/lista-linux-arm64"
       sha256 "6b9b01b3cfede6944bf0593aa6d817c780ed34a32d49898278b63b052ff931aa"
