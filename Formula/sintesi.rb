@@ -1,4 +1,4 @@
-class Lista < Formula
+class Sintesi < Formula
   desc "Simple system info fetch utility"
   homepage "https://github.com/kwame-Owusu/sintesi"
   version "0.1.0"
