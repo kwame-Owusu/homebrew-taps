@@ -6,20 +6,20 @@ class Ght < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/kwame-Owusu/ght/releases/download/v0.1.0/ght-darwin-amd64"
-      sha256 "8cdc7e8c75e0fde7dfbfe5a331e9474007adab58959f94c221b2e8debce1eaee"
+      sha256 "b0c2963a0a736028d6cbae556ed1d72577d8f934fc4580b7a585db29d70c8841"
     else
       url "https://github.com/kwame-Owusu/ght/releases/download/v0.1.0/ght-darwin-arm64"
-      sha256 "e79bb4b9934470de790de39404cd41b070227722d1df545e7bada453f0bf9e02"
+      sha256 "7fe2448c5ef1481adfa29066c6c234e1e37af6f54b8f48a04ba70b291cd5128a"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/kwame-Owusu/ght/releases/download/v0.1.0/ght-linux-amd64"
-      sha256 "318b6ae796f8d38bad2962b12fe9617fc79cf716bc9ba9a57f4f83ad84399335"
+      sha256 "cb77e336f799f32777d606bd5e481671c391970a6f1214e970b464cf2c0cf00f"
     else
       url "https://github.com/kwame-Owusu/ght/releases/download/v0.1.0/ght-linux-arm64"
-      sha256 "f6ea4e0b1ae3a500ac6990bf4754a6f774a0effce61f6d627f501f3f095de3ab"
+      sha256 "abfe17ff2306ad9f37025fa11f98e14ca61e2edc6bf65858a081e7057d025ece"
     end
   end
 
