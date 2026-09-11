@@ -5,21 +5,21 @@
 class Lista < Formula
   desc "A simple and aesthetic CLI app to manage your todos on the terminal."
   homepage "https://github.com/kwame-Owusu/lista"
-  version "0.2.2"
+  version "0.2.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/kwame-Owusu/lista/releases/download/v0.2.2/lista_0.2.2_darwin_amd64.tar.gz"
-      sha256 "5af806344ac4bcae5662a0fe67b6f36da7b1410043508f2bd14af3b718b00334"
+      url "https://github.com/kwame-Owusu/lista/releases/download/v0.2.3/lista_0.2.3_darwin_amd64.tar.gz"
+      sha256 "bdd540ff5df0897b23ab2d1f0a37d222b5e107e98ca9e4ca63d40963fe56445b"
 
       define_method(:install) do
         bin.install "lista"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/kwame-Owusu/lista/releases/download/v0.2.2/lista_0.2.2_darwin_arm64.tar.gz"
-      sha256 "06e0cd9f8532982e1fbbd85cee0a3e8eecd0c648ba28b02a33cebf9ffdabaa61"
+      url "https://github.com/kwame-Owusu/lista/releases/download/v0.2.3/lista_0.2.3_darwin_arm64.tar.gz"
+      sha256 "f6981ceb7c66a490b88805966615b6d908854b6a541359956aeffe5fbf19fab2"
 
       define_method(:install) do
         bin.install "lista"
@@ -29,15 +29,15 @@ class Lista < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kwame-Owusu/lista/releases/download/v0.2.2/lista_0.2.2_linux_amd64.tar.gz"
-      sha256 "b36002806fb93b269d7f639f138d88c86ec4684c2d8d17e1a14522fe54485b2e"
+      url "https://github.com/kwame-Owusu/lista/releases/download/v0.2.3/lista_0.2.3_linux_amd64.tar.gz"
+      sha256 "3b074bc55cb6effbbc12ea0a4b16b445e93acfeb9279d49c5c4de5b5dac0d455"
       define_method(:install) do
         bin.install "lista"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kwame-Owusu/lista/releases/download/v0.2.2/lista_0.2.2_linux_arm64.tar.gz"
-      sha256 "91201a8dcbc93ebf014f3d7a593baea3f42624b88b3c915bf146c09780330447"
+      url "https://github.com/kwame-Owusu/lista/releases/download/v0.2.3/lista_0.2.3_linux_arm64.tar.gz"
+      sha256 "add6c3b938a2bef4599d3efcaf0f7a535d36853febbb99b5b290b8f7e12d87ff"
       define_method(:install) do
         bin.install "lista"
       end
